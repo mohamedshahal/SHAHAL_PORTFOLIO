@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shahal KM | Videographer & Editor Portfolio</title>
+    <meta name="description"
+        content="Cinematic videography, video editing, color grading, and short-form content portfolio of Mohammed Shahal KM. Based in Malappuram, Kerala.">
+    <!-- Google Fonts: Syne for headers, Space Grotesk for labels/nav/stats, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="dark-theme">
+
+    <!-- Interactive Background Canvas for Gravity Logos -->
+    <canvas id="gravity-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">SHAHAL</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+            </nav>
+            <div class="nav-contact-phone">
+                <i data-lucide="phone" class="phone-icon-small"></i> +91 81292 12796
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-nav">
+        <button class="mobile-close" aria-label="Close Navigation Menu">
+            <i data-lucide="x"></i>
+        </button>
+        <div class="mobile-links">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#resume" class="mobile-link">Resume</a>
+            <a href="#portfolio" class="mobile-link">Portfolio</a>
+            <span class="mobile-phone-label"><i data-lucide="phone"></i> +91 81292 12796</span>
+        </div>
+    </div>
+
+    <!-- Main Slides Container -->
+    <main class="slides-container">
+
+        <!-- Slide 1: Home/Hero -->
+        <section id="home" class="slide-section hero-slide">
+            <div class="container">
+                <!-- Left Content Column -->
+                <div class="slide-content scroll-anim scroll-anim-stagger" style="max-width: 600px;">
+                    <div class="hero-text-block">
+                        <span class="hero-pretitle">VIDEOGRAPHER & EDITOR</span>
+                        <h1 class="hero-name-title">
+                            MOHAMED<br><span class="gradient-text" style="white-space: nowrap;">SHAHAL KM</span>
+                        </h1>
+                        <p class="hero-short-desc">
+                            Planning, shooting, and editing high-impact visual stories. Specialized in commercial
+                            shoots, reels campaigns, and cinematic grading.
+                        </p>
+                    </div>
+                    <div class="hero-action-buttons">
+                        <a href="#resume" class="btn btn-pill-primary">Resume</a>
+                        <a href="#portfolio" class="btn btn-pill-secondary">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Slide 2: About Me -->
+        <section id="about" class="slide-section about-slide">
+            <div class="container slide-grid">
+                <!-- Left Content Column -->
+                <div class="slide-content scroll-anim">
+                    <div class="about-text-block scroll-anim scroll-anim-stagger">
+                        <h2 class="slide-section-heading">ABOUT</h2>
+                        <div class="about-bio-body">
+                            <p>
+                                I am a creative and detail-oriented Videographer & Video Editor with hands-on experience
+                                in creating engaging social media, promotional, and project-based video content. Skilled
+                                in camera handling, shoot planning, lighting, camera angles, video editing, basic color
+                                grading, and sound editing.
+                            </p>
+                            <p>
+                                With a foundation in **Computer Engineering** and ongoing commerce studies, I bring a
+                                logical structure to project pipelines, ensuring swift deliveries and efficient
+                                production schedules.
+                            </p>
+                        </div>
+                        <div class="about-info-grid">
+                            <div class="about-location-box">
+                                <span class="location-label">LOCATION</span>
+                                <span class="location-value">Malappuram, Kerala, India</span>
+                            </div>
+                            <div class="about-email-box">
+                                <span class="location-label">EMAIL</span>
+                                <a href="mailto:mohamedshahalkm@gmail.com" class="about-email-link" style="margin-bottom: 0; display: inline-block;">mohamedshahalkm@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Visual Column -->
+                <div class="slide-visual scroll-anim">
+                    <div class="visual-image-wrapper portrait-wrapper">
+                        <div class="image-gradient-overlay"></div>
+                        <img src="assets/profile.png" alt="Mohammed Shahal Portrait" class="slide-portrait-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Resume & Skills (3-Column Dashboard) -->
+        <section id="resume" class="slide-section resume-slide">
+            <div class="container resume-dashboard-grid">
+
+                <!-- Column 1: Skills & Languages -->
+                <div class="dashboard-col scroll-anim scroll-anim-stagger">
+                    <h3 class="dashboard-heading">SOFTWARE SKILLS</h3>
+                    <div class="skills-list">
+                        <!-- Skill 1: Adobe Premiere Pro -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-logo-badge pr-animated" title="Adobe Premiere Pro">
+                                    <svg class="animated-logo-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="40" height="40" rx="8" fill="#00005B" stroke="#9999FF" stroke-width="2"/>
+                                        <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="20" fill="#9999FF">Pr</text>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">Adobe Premiere Pro</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="slider-track">
+                                <div class="slider-fill" data-progress="90%">
+                                    <span class="slider-circle"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Skill 2: DaVinci Resolve -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-logo-badge dr-animated" title="DaVinci Resolve">
+                                    <svg class="animated-logo-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="40" height="40" rx="8" fill="#12131C" stroke="#FF5C38" stroke-width="1.5"/>
+                                        <g class="dr-color-wheels" transform="scale(1.6667)">
+                                            <!-- Petal 1 (Red) -->
+                                            <path d="M11.962 3.423c-1.976.089-3.204 1.658-3.214 3.29.019 1.443 1.635 3.481 2.884 4.53.12.099.154.109.33.18.062.025.198-.047.327-.135.36-.245.993-.947 1.648-1.738a7.67 7.67 0 0 0 1.031-1.683c.409-.89.261-1.599.235-1.888a3.983 3.983 0 0 0-.99-1.692 3.36 3.36 0 0 0-2.251-.864z" fill="#FF4D4D"/>
+                                            <!-- Petal 2 (Green) -->
+                                            <path d="M16.134 11.345a10.185 10.185 0 0 0-3.244.61c-.15.058-.26.1-.374.17-.057.036-.11.135-.105.292.017.433.29 1.278.624 2.27.384 1.135 1.066 2.27 1.844 2.74a3.23 3.23 0 0 0 2.53.342c.832-.243 1.595-.868 1.962-1.546.986-1.818.19-3.548-1.121-4.417-.447-.296-1.133-.445-1.89-.46-.074 0-.15-.002-.226-.001z" fill="#34C759"/>
+                                            <!-- Petal 3 (Blue) -->
+                                            <path d="M7.702 11.383a6.201 6.201 0 0 0-.752.047c-.596.078-.932.273-1.29.51a3.177 3.177 0 0 0-1.365 1.979c-.075.552-.086 1.053.033 1.507.433 1.389 1.326 2.222 2.847 2.452.636.028 1.37-.063 1.99-.45 1.269-.782 2.08-3.17 2.412-4.742.053-.176.035-.357-.013-.42-.005-.067-.044-.113-.19-.183-.398-.192-1.32-.417-2.375-.6a7.68 7.68 0 0 0-1.297-.1z" fill="#007AFF"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">DaVinci Resolve</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="slider-track">
+                                <div class="slider-fill" data-progress="80%">
+                                    <span class="slider-circle"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Skill 3: CapCut -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-logo-badge cc-animated" title="CapCut Desktop & Mobile">
+                                    <svg class="animated-logo-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="40" height="40" rx="8" fill="#0F1015" stroke="#00F2FE" stroke-width="1.5"/>
+                                        <path d="M24.189 6.442V2.671l-4.535 2.383V4.91c.002-1.505-1.078-2.411-2.638-2.411H2.64C.993 2.5 0 3.407 0 4.91V8.72L6.354 12 0 15.316v3.8C0 20.595 1 21.5 2.64 21.5h14.373c1.56 0 2.639-.907 2.639-2.382v-.197l4.536 2.409v-3.828L13.64 12 24.19 6.443zM9.982 13.873l7.797 4.083H2.157l7.825-4.083zm7.741-7.828l-7.742 4.057-7.825-4.057h15.567z" fill="#00F2FE" transform="translate(8, 9.25)" />
+                                    </svg>
+                                </div>
+                                <span class="skill-name">CapCut Desktop & Mobile</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="slider-track">
+                                <div class="slider-fill" data-progress="95%">
+                                    <span class="slider-circle"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Skill 4: After Effects -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-logo-badge ae-animated" title="Adobe After Effects">
+                                    <svg class="animated-logo-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="40" height="40" rx="8" fill="#00003B" stroke="#D999FF" stroke-width="2"/>
+                                        <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="20" fill="#D999FF">Ae</text>
+                                    </svg>
+                                </div>
+                                <span class="skill-name">Adobe After Effects</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="slider-track">
+                                <div class="slider-fill" data-progress="70%">
+                                    <span class="slider-circle"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="dashboard-heading" style="margin-top: 40px;">LANGUAGES</h3>
+                    <div class="languages-list">
+                        <div class="lang-item">
+                            <div class="lang-text">
+                                <span class="lang-name">English</span>
+                                <span class="lang-val">Professional</span>
+                            </div>
+                            <div class="slider-track mini">
+                                <div class="slider-fill" data-progress="80%"></div>
+                            </div>
+                        </div>
+                        <div class="lang-item">
+                            <div class="lang-text">
+                                <span class="lang-name">Malayalam</span>
+                                <span class="lang-val">Native</span>
+                            </div>
+                            <div class="slider-track mini">
+                                <div class="slider-fill" data-progress="100%"></div>
+                            </div>
+                        </div>
+                        <div class="lang-item">
+                            <div class="lang-text">
+                                <span class="lang-name">Tamil / Hindi</span>
+                                <span class="lang-val">Conversational</span>
+                            </div>
+                            <div class="slider-track mini">
+                                <div class="slider-fill" data-progress="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Experience Timeline -->
+                <div class="dashboard-col scroll-anim scroll-anim-stagger">
+                    <h3 class="dashboard-heading">EXPERIENCE</h3>
+                    <div class="timeline-container">
+                        <!-- Exp item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <span class="timeline-year-badge">2026 - Present</span>
+                                <h4 class="timeline-job-title">Freelance Videographer</h4>
+                                <span class="timeline-company">Optax Wave Solutions Pvt. Ltd</span>
+                                <p class="timeline-job-desc">Planned, shot, and edited brand promo reels, product reels,
+                                    and social media event highlights. Handled lighting and color correction.</p>
+                            </div>
+                        </div>
+                        <!-- Exp item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <span class="timeline-year-badge">2025 - 2026</span>
+                                <h4 class="timeline-job-title">Videographer & Editor</h4>
+                                <span class="timeline-company">Ziwerd Advertisements</span>
+                                <p class="timeline-job-desc">Shot and edited commercial campaign videos. Coordinated
+                                    shoots, managed multiple projects, and layered audio track enhancements.</p>
+                            </div>
+                        </div>
+                        <!-- Exp item 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <span class="timeline-year-badge">2024 - 2025</span>
+                                <h4 class="timeline-job-title">Videographer & Editor</h4>
+                                <span class="timeline-company">Brickzone</span>
+                                <p class="timeline-job-desc">Captured construction progress shoots and created
+                                    before/after comparisons under active field conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="dashboard-heading" style="margin-top: 40px;">EDUCATION</h3>
+                    <div class="education-block">
+                        <div class="edu-item">
+                            <span class="edu-year">2022 - 2025</span>
+                            <h4 class="edu-title">Diploma In Computer Engineering</h4>
+                            <span class="edu-school">Majlis Polytechnic College, Valanchery</span>
+                        </div>
+                        <div class="edu-item" style="margin-top: 15px;">
+                            <span class="edu-year">Present</span>
+                            <h4 class="edu-title">Bachelor of Commerce Four-Year (BCOMF)</h4>
+                            <span class="edu-school">Indira Gandhi National Open University</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3: Capabilities & Hobbies -->
+                <div class="dashboard-col scroll-anim scroll-anim-stagger">
+                    <h3 class="dashboard-heading">WHAT CAN I DO?</h3>
+                    <div class="capabilities-list">
+                        <div class="cap-item">
+                            <i data-lucide="video" class="cap-icon"></i>
+                            <div class="cap-info">
+                                <h4>Cinematic Shoots</h4>
+                                <p>Structured lighting setups, camera angles, gimbal tracking, and multi-cam shoot
+                                    operations.</p>
+                            </div>
+                        </div>
+                        <div class="cap-item">
+                            <i data-lucide="sliders" class="cap-icon"></i>
+                            <div class="cap-info">
+                                <h4>Story Editing</h4>
+                                <p>Dynamic pacing, sound enhancements, timing cuts, and VHS overlays for social media
+                                    content.</p>
+                            </div>
+                        </div>
+                        <div class="cap-item">
+                            <i data-lucide="aperture" class="cap-icon"></i>
+                            <div class="cap-info">
+                                <h4>Color Grading</h4>
+                                <p>Color correction, skin tone matching, styling, and exposure fixes inside DaVinci
+                                    Resolve.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="dashboard-heading" style="margin-top: 40px;">HOBBIES & INTERESTS</h3>
+                    <div class="hobbies-grid">
+                        <div class="hobby-box">
+                            <i data-lucide="camera"></i>
+                            <span>Photography</span>
+                        </div>
+                        <div class="hobby-box">
+                            <i data-lucide="compass"></i>
+                            <span>Travel</span>
+                        </div>
+                        <div class="hobby-box">
+                            <i data-lucide="music"></i>
+                            <span>Music Rhythm</span>
+                        </div>
+                        <div class="hobby-box">
+                            <i data-lucide="cpu"></i>
+                            <span>Tech Gear</span>
+                        </div>
+                    </div>
+
+                    <!-- Personal Attributes -->
+                    <div class="personal-skills-box" style="margin-top: 30px;">
+                        <span class="personal-skill-pill">Creativity</span>
+                        <span class="personal-skill-pill">Active Team Work</span>
+                        <span class="personal-skill-pill">Task Organisation</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Slide 4: Portfolio / Showcase -->
+        <section id="portfolio" class="slide-section portfolio-slide">
+            <div class="container">
+                <div class="portfolio-header-row scroll-anim">
+                    <h2 class="slide-section-heading" style="margin-bottom: 0;">PORTFOLIO</h2>
+                    <!-- Category Filters -->
+                    <div class="portfolio-filters-pill">
+                        <button class="filter-btn active" data-filter="concept">Concept</button>
+                        <button class="filter-btn" data-filter="presentation">Presentation</button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid scroll-anim scroll-anim-stagger">
+                    <!-- Project 1 (Presentation) -->
+                    <div class="project-card" data-category="presentation"
+                        data-video="assets/pr/video_2026-08-29_20-26-20.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80"
+                                alt="Brand Showcase Reel">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Presentation</span>
+                                    <h3 class="project-title">Brand Showcase Reel</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Optax Wave Solutions</span>
+                            <span class="meta-role">Lead Editor & Colorist</span>
+                            <span class="meta-desc">Dynamic brand highlight reel showcasing products in motion with clean cuts, light leaks, and professional color grading to capture brand aesthetics.</span>
+                            <span class="meta-tools">Adobe Premiere Pro, DaVinci Resolve</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 (Presentation) -->
+                    <div class="project-card" data-category="presentation"
+                        data-video="assets/pr/video_2026-08-29_20-26-23.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1502224562085-639556652f33?auto=format&fit=crop&w=600&q=80"
+                                alt="Corporate Ad Showcase">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Brand Presentation</span>
+                                    <h3 class="project-title">Corporate Ad Showcase</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Ziwerd Advertisements</span>
+                            <span class="meta-role">Editor & Director</span>
+                            <span class="meta-desc">Creative commercial video detailing production spaces, employee profiles, and workflow operations. Post-processed with synchronized background tracks.</span>
+                            <span class="meta-tools">Adobe Premiere Pro, After Effects</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 (Presentation) -->
+                    <div class="project-card" data-category="presentation"
+                        data-video="assets/pr/video_2026-08-29_20-26-33.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80"
+                                alt="Product Launch Highlight">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Corporate Presentation</span>
+                                    <h3 class="project-title">Product Launch Highlight</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Brickzone Project</span>
+                            <span class="meta-role">Videographer & Editor</span>
+                            <span class="meta-desc">Professional highlight coverage of a major product launch ceremony, using cinematic angles, transitions, and detail rendering.</span>
+                            <span class="meta-tools">DaVinci Resolve, Premiere Pro</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3b (Presentation) -->
+                    <div class="project-card" data-category="presentation"
+                        data-video="assets/pr/video_2026-08-29_20-26-39.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80"
+                                alt="Creative Commercial Ad">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Brand Presentation</span>
+                                    <h3 class="project-title">Creative Commercial Ad</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Global Media Spec</span>
+                            <span class="meta-role">Director & Editor</span>
+                            <span class="meta-desc">Cinematic advertisement utilizing advanced pacing, sound design overlays, and custom typography to highlight lifestyle trends and premium details.</span>
+                            <span class="meta-tools">Adobe Premiere Pro, Audition</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3c (Presentation) -->
+                    <div class="project-card" data-category="presentation"
+                        data-video="assets/pr/video_2026-08-29_20-27-03.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="assets/studio_showcase_cover.svg"
+                                alt="Studio Showcase Promo">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Corporate Presentation</span>
+                                    <h3 class="project-title">Studio Showcase Promo</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Spec Ad Campaign</span>
+                            <span class="meta-role">Lead Editor & Sound Designer</span>
+                            <span class="meta-desc">Highly engaging studio promo highlighting creative processes, camera rigs, and editing suite tools, optimized for website backgrounds and landing showcases.</span>
+                            <span class="meta-tools">Adobe Premiere Pro, After Effects</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 (Concept 1) -->
+                    <div class="project-card" data-category="concept"
+                        data-video="assets/video_2026-08-29_19-33-30.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80"
+                                alt="Cinematic Storytelling Concept">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Concept Film</span>
+                                    <h3 class="project-title">Cinematic Storytelling</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Personal Project</span>
+                            <span class="meta-role">Director, Cinematographer & Editor</span>
+                            <span class="meta-desc">A narrative cinematic concept focusing on dynamic lighting, visual metaphors, and pacing. Developed as an exploration of mood and dramatic color grading.</span>
+                            <span class="meta-tools">DaVinci Resolve, Adobe Premiere Pro</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 (Concept 2) -->
+                    <div class="project-card" data-category="concept"
+                        data-video="assets/video_2026-08-29_19-33-35.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80"
+                                alt="Urban Motion Showcase">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Concept Film</span>
+                                    <h3 class="project-title">Urban Motion Showcase</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Spec Ad Campaign</span>
+                            <span class="meta-role">Videographer & Editor</span>
+                            <span class="meta-desc">High-energy street and motion concept using speed ramps, perspective tracking, and synchronized sound design to highlight movement and modern style.</span>
+                            <span class="meta-tools">Adobe Premiere Pro, After Effects</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 (Concept 3) -->
+                    <div class="project-card" data-category="concept"
+                        data-video="assets/video_2026-08-29_19-33-43.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=600&q=80"
+                                alt="Neon Nocturne Grading">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Concept Film</span>
+                                    <h3 class="project-title">Neon Nocturne Grading</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Creative Lab</span>
+                            <span class="meta-role">Colorist & Editor</span>
+                            <span class="meta-desc">Low-light cinematic concept exploring neon color palettes, shadow recovery, and ambient street-lighting profiles. Post-processed to give a futuristic cyberpunk mood.</span>
+                            <span class="meta-tools">DaVinci Resolve</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 (Concept 4) -->
+                    <div class="project-card" data-category="concept"
+                        data-video="assets/video_2026-08-29_19-34-08.mp4">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1473163928189-364b2c4e1135?auto=format&fit=crop&w=600&q=80"
+                                alt="Aerial Nature Concept">
+                            <div class="project-overlay">
+                                <i data-lucide="play" class="project-play-icon"></i>
+                                <div class="project-details">
+                                    <span class="project-cat">Concept Film</span>
+                                    <h3 class="project-title">Aerial Nature Concept</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-meta-hidden">
+                            <span class="meta-client">Visual Experiments</span>
+                            <span class="meta-role">Aerial Cinematographer & Editor</span>
+                            <span class="meta-desc">Scenic nature sequence combining aerial tracking shots with organic soundscapes. Structured to evoke a sense of vastness and tranquil scale through color flow.</span>
+                            <span class="meta-tools">DaVinci Resolve, Drone Rig</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Contact -->
+        <section id="contact" class="slide-section contact-slide">
+            <div class="container slide-grid">
+                <!-- Left Column: Details -->
+                <div class="slide-content scroll-anim">
+                    <div class="contact-details-block">
+                        <h2 class="slide-section-heading">START A PROJECT</h2>
+                        <p class="contact-sub-desc">
+                            Have footage ready to grade, a shoot to plan, or looking to collaborate? Reach out directly.
+                        </p>
+                        <div class="slide-contact-list">
+                            <div class="slide-contact-row">
+                                <span class="contact-label">EMAIL</span>
+                                <a href="mailto:mohamedshahalkm@gmail.com"
+                                    class="contact-value">mohamedshahalkm@gmail.com</a>
+                            </div>
+                            <div class="slide-contact-row" style="margin-top: 20px;">
+                                <span class="contact-label">PHONE</span>
+                                <a href="tel:+918129212796" class="contact-value">+91 81292 12796</a>
+                            </div>
+                            <div class="slide-contact-row" style="margin-top: 20px;">
+                                <span class="contact-label">LOCATION</span>
+                                <span class="contact-value">Malappuram, Kerala, India</span>
+                            </div>
+                        </div>
+                        <div class="slide-contact-socials" style="margin-top: 40px;">
+                            <a href="https://linkedin.com/in/mohamed-shahal-190a0b365" target="_blank"
+                                class="social-icon-btn linkedin" title="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                    <rect width="4" height="12" x="2" y="9"/>
+                                    <circle cx="4" cy="4" r="2"/>
+                                </svg>
+                            </a>
+                            <a href="https://instagram.com/eyesofshahl" target="_blank"
+                                class="social-icon-btn instagram" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Column: Form -->
+                <div class="slide-form-wrapper scroll-anim">
+                    <form id="portfolio-contact-form" class="slide-contact-form" novalidate>
+                        <div class="form-row">
+                            <div class="form-group floating-group">
+                                <input type="text" id="user-name" required placeholder=" ">
+                                <label for="user-name">Your Name</label>
+                                <span class="form-line"></span>
+                            </div>
+                            <div class="form-group floating-group">
+                                <input type="email" id="user-email" required placeholder=" ">
+                                <label for="user-email">Your Email</label>
+                                <span class="form-line"></span>
+                            </div>
+                        </div>
+                        <div class="form-group floating-group">
+                            <select id="project-type" required>
+                                <option value="" disabled selected hidden></option>
+                                <option value="commercial">Commercial Video / Reel</option>
+                                <option value="social">Reels & TikTok Campaigns</option>
+                                <option value="corporate">Construction & Corporate</option>
+                                <option value="other">Other Videography Shoot</option>
+                            </select>
+                            <label for="project-type" class="select-label">Project Type</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <div class="form-group floating-group">
+                            <textarea id="project-msg" rows="4" required placeholder=" "></textarea>
+                            <label for="project-msg">Tell me about your shooting project or footage...</label>
+                            <span class="form-line"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Send Message</span> <i data-lucide="send" class="btn-icon"></i>
+                        </button>
+                    </form>
+
+                    <!-- Success Overlay -->
+                    <div class="form-success-overlay" id="form-success">
+                        <div class="success-content">
+                            <div class="success-icon-circle">
+                                <i data-lucide="check-circle" class="success-icon"></i>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you. Shahal will get in touch with you shortly.</p>
+                            <button class="btn btn-secondary btn-reset-form" id="close-success-btn">Send Another
+                                Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Custom Video Player Modal -->
+    <div class="video-modal" id="video-player-modal">
+        <div class="modal-bg"></div>
+        <div class="modal-container">
+            <button class="modal-close-btn" aria-label="Close video player">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-content">
+                <!-- Video Panel -->
+                <div class="modal-video-wrapper">
+                    <video id="modal-video" controls playsinline preload="auto">
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <!-- Project details panel -->
+                <div class="modal-info-panel">
+                    <div class="info-header">
+                        <span class="info-client" id="modal-project-client">Optax Wave Solutions</span>
+                        <h2 class="info-title" id="modal-project-title">Apex Brand Promo Reel</h2>
+                    </div>
+                    <div class="info-body">
+                        <div class="info-meta-row">
+                            <div class="meta-item">
+                                <span class="meta-title">ROLE</span>
+                                <span class="meta-val" id="modal-project-role">Videographer & Editor</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-title">GEAR & SOFTWARE</span>
+                                <span class="meta-val" id="modal-project-tools">Adobe Premiere Pro, DaVinci
+                                    Resolve</span>
+                            </div>
+                        </div>
+                        <div class="info-desc-box">
+                            <span class="meta-title">PROJECT OVERVIEW</span>
+                            <p id="modal-project-desc">Brand promotional video featuring dynamic product camera
+                                movements, lighting setup, and professional color grading. Focused on highlighting
+                                garment textures and lifestyle fits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 MOHAMMED SHAHAL KM. All rights reserved.</p>
+            <p class="design-credit">Designed with passion for visual storytellers.</p>
+        </div>
+    </footer>
+
+    <!-- Core App Logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>
