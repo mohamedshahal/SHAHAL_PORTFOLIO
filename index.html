@@ -77,8 +77,8 @@
                         </p>
                     </div>
                     <div class="hero-action-buttons">
-                        <a href="#resume" class="btn btn-pill-primary">Resume</a>
-                        <a href="#portfolio" class="btn btn-pill-secondary">Portfolio</a>
+                        <a href="assets/Mohamed_Shahal_KM_Resume.pdf" target="_blank" download="Mohamed_Shahal_KM_Resume.pdf" class="btn btn-pill-primary"><i data-lucide="file-text" style="width: 14px; height: 14px; margin-right: 8px;"></i> Resume (PDF)</a>
+                        <a href="#portfolio" class="btn btn-pill-secondary"><i data-lucide="play" style="width: 14px; height: 14px; margin-right: 8px; fill: currentColor;"></i> Watch Videos</a>
                     </div>
                 </div>
             </div>
@@ -131,7 +131,14 @@
 
         <!-- Slide 3: Resume & Skills (3-Column Dashboard) -->
         <section id="resume" class="slide-section resume-slide">
-            <div class="container resume-dashboard-grid">
+            <div class="container">
+                <div class="resume-header-row scroll-anim">
+                    <h2 class="slide-section-heading" style="margin-bottom: 0;">RESUME & SKILLS</h2>
+                    <a href="assets/Mohamed_Shahal_KM_Resume.pdf" target="_blank" download="Mohamed_Shahal_KM_Resume.pdf" class="btn btn-resume-download">
+                        <i data-lucide="download"></i> Download PDF Resume
+                    </a>
+                </div>
+                <div class="resume-dashboard-grid">
 
                 <!-- Column 1: Skills & Languages -->
                 <div class="dashboard-col scroll-anim scroll-anim-stagger">
@@ -383,7 +390,8 @@
                 </div>
 
             </div>
-        </section>
+        </div>
+    </section>
 
         <!-- Slide 4: Portfolio / Showcase -->
         <section id="portfolio" class="slide-section portfolio-slide">
@@ -403,13 +411,19 @@
                     <div class="project-card" data-category="presentation"
                         data-video="assets/pr/video_2026-08-29_20-26-20.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80"
-                                alt="Brand Showcase Reel">
+                            <video src="assets/pr/video_2026-08-29_20-26-20.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="film"></i> SHOWCASE REEL</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Presentation</span>
                                     <h3 class="project-title">Brand Showcase Reel</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -427,13 +441,19 @@
                     <div class="project-card" data-category="presentation"
                         data-video="assets/pr/video_2026-08-29_20-26-23.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1502224562085-639556652f33?auto=format&fit=crop&w=600&q=80"
-                                alt="Corporate Ad Showcase">
+                            <video src="assets/pr/video_2026-08-29_20-26-23.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="video"></i> COMMERCIAL AD</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Brand Presentation</span>
                                     <h3 class="project-title">Corporate Ad Showcase</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -451,13 +471,19 @@
                     <div class="project-card" data-category="presentation"
                         data-video="assets/pr/video_2026-08-29_20-26-33.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=600&q=80"
-                                alt="Product Launch Highlight">
+                            <video src="assets/pr/video_2026-08-29_20-26-33.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="film"></i> EVENT HIGHLIGHT</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Corporate Presentation</span>
                                     <h3 class="project-title">Product Launch Highlight</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -474,13 +500,19 @@
                     <div class="project-card" data-category="presentation"
                         data-video="assets/pr/video_2026-08-29_20-26-39.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80"
-                                alt="Creative Commercial Ad">
+                            <video src="assets/pr/video_2026-08-29_20-26-39.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="video"></i> BRAND AD</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Brand Presentation</span>
                                     <h3 class="project-title">Creative Commercial Ad</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -498,12 +530,19 @@
                     <div class="project-card" data-category="presentation"
                         data-video="assets/pr/video_2026-08-29_20-27-03.mp4">
                         <div class="project-img-wrapper">
-                            <img src="assets/studio_showcase_cover.jpg" alt="Studio Showcase Promo">
+                            <video src="assets/pr/video_2026-08-29_20-27-03.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="video"></i> STUDIO PROMO</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Corporate Presentation</span>
                                     <h3 class="project-title">Studio Showcase Promo</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -517,38 +556,22 @@
                         </div>
                     </div>
 
-                    <!-- Project 4 (Concept 1)
-                    <div class="project-card" data-category="concept"
-                        data-video="assets/video_2026-08-29_19-33-30.mp4">
-                        <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=600&q=80"
-                                alt="Cinematic Storytelling Concept">
-                            <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
-                                <div class="project-details">
-                                    <span class="project-cat">Concept Film</span>
-                                    <h3 class="project-title">Cinematic Storytelling</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project-meta-hidden">
-                            <span class="meta-client">Personal Project</span>
-                            <span class="meta-role">Director, Cinematographer & Editor</span>
-                            <span class="meta-desc">A narrative cinematic concept focusing on dynamic lighting, visual metaphors, and pacing. Developed as an exploration of mood and dramatic color grading.</span>
-                            <span class="meta-tools">DaVinci Resolve, Adobe Premiere Pro</span>
-                        </div>
-                    </div> -->
-
                     <!-- Project 5 (Concept 2) -->
                     <div class="project-card" data-category="concept" data-video="assets/video_2026-08-29_19-33-35.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=600&q=80"
-                                alt="Urban Motion Showcase">
+                            <video src="assets/video_2026-08-29_19-33-35.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="film"></i> CONCEPT FILM</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Concept Film</span>
                                     <h3 class="project-title">Urban Motion Showcase</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -564,13 +587,19 @@
                     <!-- Project 6 (Concept 3) -->
                     <div class="project-card" data-category="concept" data-video="assets/video_2026-08-29_19-33-43.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=600&q=80"
-                                alt="Neon Nocturne Grading">
+                            <video src="assets/video_2026-08-29_19-33-43.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="film"></i> COLOR GRADE REEL</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Concept Film</span>
                                     <h3 class="project-title">Neon Nocturne Grading</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -587,13 +616,19 @@
                     <!-- Project 7 (Concept 4) -->
                     <div class="project-card" data-category="concept" data-video="assets/video_2026-08-29_19-34-08.mp4">
                         <div class="project-img-wrapper">
-                            <img src="https://images.unsplash.com/photo-1473163928189-364b2c4e1135?auto=format&fit=crop&w=600&q=80"
-                                alt="Aerial Nature Concept">
+                            <video src="assets/video_2026-08-29_19-34-08.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="film"></i> DRONE SEQUENCE</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Concept Film</span>
                                     <h3 class="project-title">Aerial Nature Concept</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>
@@ -610,12 +645,19 @@
                     <!-- Project 7 (Concept 4 - Sabka App Spec Commercial) -->
                     <div class="project-card" data-category="concept" data-video="assets/video_2026-08-31_20-31-19.mp4">
                         <div class="project-img-wrapper">
-                            <img src="assets/sabka_promo_cover.jpg" alt="Sabka App Commercial Promo">
+                            <video src="assets/video_2026-08-31_20-31-19.mp4#t=0.001" muted loop playsinline preload="metadata" class="project-card-video"></video>
+                            <span class="project-video-tag"><i data-lucide="video"></i> SPEC COMMERCIAL</span>
+                            <div class="project-play-btn-wrapper">
+                                <div class="project-play-ripple"></div>
+                                <div class="project-play-icon">
+                                    <i data-lucide="play"></i>
+                                </div>
+                            </div>
                             <div class="project-overlay">
-                                <i data-lucide="play" class="project-play-icon"></i>
                                 <div class="project-details">
                                     <span class="project-cat">Spec Commercial</span>
                                     <h3 class="project-title">Sabka App Commercial Promo</h3>
+                                    <span class="project-action-hint"><i data-lucide="play-circle"></i> Click to play video</span>
                                 </div>
                             </div>
                         </div>

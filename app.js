@@ -187,6 +187,18 @@ document.addEventListener('DOMContentLoaded', () => {
             modalVideo.play().catch(e => console.log('Autoplay blocked:', e));
             document.body.style.overflow = 'hidden';
         });
+
+        // Interactive video hover preview (silent video playback on mouse hover)
+        const previewVideo = card.querySelector('.project-card-video');
+        if (previewVideo) {
+            card.addEventListener('mouseenter', () => {
+                previewVideo.play().catch(() => {});
+            });
+            card.addEventListener('mouseleave', () => {
+                previewVideo.pause();
+                previewVideo.currentTime = 0;
+            });
+        }
     });
 
     // Main showreel trigger (linked in Portfolio card triggers or manually)
